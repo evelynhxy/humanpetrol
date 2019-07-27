@@ -1,0 +1,126 @@
+{
+	"product": [
+		{
+			"name": "Kirin Ichiban Draught Beer 30L",
+			"price": "$250",
+			"volume": "30-liter keg",
+			"image": "kirin.jpg",
+			"popupOverlay": "kirin30pop",
+			"popupContent": "kirin30content",
+			"detailClass": "kirin30",
+			"add": "kirin30add",
+			"browse": "kirin30browse",
+			"added": "kirin30added"
+		},
+
+		{
+			"name": "Hoegaarden Draught Beer 30L",
+			"price": "$300",
+			"volume": "30-liter keg",
+			"image": "hoegaarden.jpg",
+			"popupOverlay": "hoegaarden30pop",
+			"popupContent": "hoegaarden30content",
+			"detailClass": "hoegaarden30",
+			"add": "hoegaarden30add",
+			"browse": "hoegaarden30browse",
+			"added": "hoegaarden30added"
+		},
+		{
+			"name": "Erdinger Draught Beer 30L",
+			"price": "$330",
+			"volume": "30-liter keg",
+			"image": "erdinger.jpg",
+			"popupOverlay": "erdinger30pop",
+			"popupContent": "erdinger30content",
+			"detailClass": "erdinger30",
+			"add": "erdinger30add",
+			"browse": "erdinger30browse",
+			"added": "erdinger30added"
+		},
+		{
+			"name": "Stella Draught Beer 30L",
+			"price": "$250",
+			"volume": "30-liter keg",
+			"image": "stella.jpg",
+			"popupOverlay": "stella30pop",
+			"popupContent": "stella30content",
+			"detailClass": "stella30",
+			"add": "stella30add",
+			"browse": "stella30browse",
+			"added": "stella30added"
+		},
+		{
+			"name": "Kirin Ichiban Draught Beer 30L",
+			"price": "$250",
+			"volume": "30-liter keg",
+			"image": "kirin.jpg",
+			"popupOverlay": "kirin30pop",
+			"popupContent": "kirin30content",
+			"detailClass": "kirin30",
+			"add": "kirin30add",
+			"browse": "kirin30browse",
+			"added": "kirin30added"
+		},
+		{
+			"name": "Kirin Ichiban Draught Beer 30L",
+			"price": "$250",
+			"volume": "30-liter keg",
+			"image": "kirin.jpg",
+			"popupOverlay": "kirin30pop",
+			"popupContent": "kirin30content",
+			"detailClass": "kirin30",
+			"add": "kirin30add",
+			"browse": "kirin30browse",
+			"added": "kirin30added"
+		},
+		{
+			"name": "Kirin Ichiban Draught Beer 30L",
+			"price": "$250",
+			"volume": "30-liter keg",
+			"image": "kirin.jpg",
+			"popupOverlay": "kirin30pop",
+			"popupContent": "kirin30content",
+			"detailClass": "kirin30",
+			"add": "kirin30add",
+			"browse": "kirin30browse",
+			"added": "kirin30added"
+		},
+		{
+			"name": "Kirin Ichiban Draught Beer 30L",
+			"price": "$250",
+			"volume": "30-liter keg",
+			"image": "kirin.jpg",
+			"popupOverlay": "kirin30pop",
+			"popupContent": "kirin30content",
+			"detailClass": "kirin30",
+			"add": "kirin30add",
+			"browse": "kirin30browse",
+			"added": "kirin30added"
+		},
+		{
+			"name": "Kirin Ichiban Draught Beer 30L",
+			"price": "$250",
+			"volume": "30-liter keg",
+			"image": "kirin.jpg",
+			"popupOverlay": "kirin30pop",
+			"popupContent": "kirin30content",
+			"detailClass": "kirin30",
+			"add": "kirin30add",
+			"browse": "kirin30browse",
+			"added": "kirin30added"
+		},
+		{
+			"name": "Kirin Ichiban Draught Beer 30L",
+			"price": "$250",
+			"volume": "30-liter keg",
+			"image": "kirin.jpg",
+			"popupOverlay": "kirin30pop",
+			"popupContent": "kirin30content",
+			"detailClass": "kirin30",
+			"add": "kirin30add",
+			"browse": "kirin30browse",
+			"added": "kirin30added"
+		}
+
+	]
+}

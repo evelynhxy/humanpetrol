@@ -1,0 +1,185 @@
+#header{
+	background: url("imgs/header.jpg") center center / cover no-repeat;
+	height: auto;
+	max-width: 100%
+}
+
+#navbar-cart{
+	text-align: left;
+}
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  .card{
+    width: 18vw;
+  }
+  .container.hs{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .card{
+    width: 25vw;
+  }
+  .container.hs{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .card{
+    width: 26vw;
+  }
+  .container.hs{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+ 
+    
+    
+    
+  }
+/*  .d-flex:before,
+  .d-flex:after {
+  content: '';
+  width: 10px;
+  }*/
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .card{
+    width: 30vw;
+  }
+/*  .container.outer{
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .d-flex:before,
+  .d-flex:after {
+  content: '';
+  width: 10px;
+  display: block;
+  }*/
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .card{
+    width: 40vw;
+  }
+/*  .container.outer{
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .d-flex:before,
+  .d-flex:after {
+  content: '';
+  width: 10px;
+  }*/
+}
+
+.eqhw{
+	flex:1;
+}
+
+.row{
+	display: flex;
+}
+
+.container.outer{
+  display:flex;  
+  overflow-x: auto;
+
+
+}
+
+.container::-webkit-scrollbar {
+	display: none;
+}
+
+
+.kirin30pop {
+  /*Hides pop-up when there is no "active" class*/
+
+  visibility: hidden;
+  position: absolute;
+  background: #ffffff;
+  border: 3px solid #666666;
+  width: 60%;
+  
+  z-index: 9999;
+}
+
+.kirin30pop.active {
+  /*displays pop-up when "active" class is present*/
+  position:absolute;
+  top:50%;
+  left:50%;
+  width:60vw;  /* adjust as per your needs */
+   /* adjust as per your needs */
+ 
+  text-align: center;
+  visibility: visible;
+}
+
+.kirin30content {
+  /*Hides pop-up content when there is no "active" class */
+  visibility: hidden;
+}
+
+.kirin30content.active {
+  /*Shows pop-up content when "active" class is present */
+  text-align: center;
+  visibility: visible;
+}
+
+.close {
+  display: inline-block;
+  text-align: center;
+  border-radius: 30px;
+  
+  font-size: 1rem;
+  color: #666666;
+  background: #ffffff;
+  border: 1px solid #666666;
+}
+
+button:hover {
+  border: 1px solid #666666;
+  background: #666666;
+  color: #ffffff;
+}

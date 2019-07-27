@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="app.css">
+
+
+
+	<title>Beer</title>
+</head>
+
+<body>
+    <nav class="navbar bg-light navbar-light">
+        <div class="container">
+            <a href="index.html" class="navbar-brand"><i class="fas fa-beer"></i> Logo</a>
+            <a href="cart.html" class="navbar-brand" id="navbar-cart"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+    </nav>
+
+    <section id="header" class="jumbotron text-center img-fluid">
+        <h1 class="display-3">Draught Beer</h1>
+        <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, pariatur?</p>
+    </section>
+
+<!-- <div class="container">
+<div class='lightbox'>
+  <div class='lightbox-inner'>
+    <div class='content align-center'>
+    	<h1>Hello</h1>
+    </div>
+  </div>
+</div>
+</div> -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+      	<div class="simpleCart_shelfItem">
+      		<div class="container-fluid">
+      			<div class="row">
+      				<div class="col-md-12">
+      					 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          					<span aria-hidden="true">&times;</span>
+        				</button>
+      				</div>
+      			</div>
+      			<div class="row information">
+      				<div class="col-md-6">
+      					<img src="" class="item_thumb img-fluid">
+      				</div>
+      				<div class="col-md-6 info">
+      					<p class="item_name"></p>
+						<p class="item_volume"></p>
+						<span class="item_price"></span>
+					<!-- 	<a class="item_add btn btn-outline-success btn-sm" href="javascript:;"> Add to Cart </a>
+        				<p class="prompt">product added!</p> -->
+      				</div>
+      			</div>
+      		</div>
+		</div>
+ 	  </div>
+    </div>
+  </div>
+</div>
+
+    <section>
+    	<div class="product">
+		    <div class="hs full">
+					<!-- <div class="card">
+						<div class="simpleCart_shelfItem">
+						    <img src="imgs/kirin.jpg" class="item_thumb card-img-top"/>
+						    
+
+						    <div class="card-body">
+						    	
+							    	<p class="item_name"> Kirin Ichiban Draught Beer 30L</p>
+							    	<p class="item_volume">30-liter keg</p>
+							    	<span class="item_price">$35.99</span>
+							   
+							    <button type="button" class="btn btn-outline-secondary btn-sm" data-toggle="modal" data-target="#exampleModal" data-sku="Kirin Ichiban Draught Beer 30L" data-img="imgs/kirin.jpg" data-volume="30-liter keg" data-price="35.99" data-add="kirin30add" data-added="kirin30added" >Details</button>
+							  
+								<a class="item_add btn btn-success btn-sm kirin30add" href="javascript:;"> Add to Cart </a>
+								<a class="browse_list btn btn-outline-info btn-sm" id="kirin30browse" href="cart.html">Browse Request</a>
+								<p class="prompt kirin30added">product added!</p>
+						    </div>
+						</div>
+					</div>
+		        <div class="card">
+		        	
+					<div class="simpleCart_shelfItem">
+					    <img src="imgs/hoegaarden.jpg" class="item_thumb kirin30 card-img-top"/>
+					    <div class="myBtn" data-modal="#modalTwo">
+						    	<button>Click</button>
+						</div>
+					    <div class="card-body">
+					    	<p class="item_name kirin30"> Awesome T-shirt </p>
+						    
+						    <span class="item_price">$35.99</span>
+							<a class="item_add btn btn-outline-success btn-sm" href="javascript:;"> Add to Cart </a>
+					    </div>
+					</div>        	
+		        </div>
+		        <div class="card">
+					<div class="simpleCart_shelfItem">
+					    <img src="imgs/erdinger.jpg" class="item_thumb kirin30 card-img-top" />
+					    <div class="card-body">
+					    	<p class="item_name kirin30"> Awesome T-shirt </p>
+						    <input type="text" value="1" class="item_Quantity form-control mx-sm-3">
+						    <span class="item_price">$35.99</span>
+							<a class="item_add btn btn-outline-success btn-sm" href="javascript:;"> Add to Cart </a>
+					    </div>
+					</div>
+		        </div>
+		        <div class="card">
+					<div class="simpleCart_shelfItem">
+					    <img src="imgs/kirin.jpg" class="item_thumb kirin30 card-img-top" />
+					    <div class="card-body">
+					    	<p class="item_name kirin30"> Awesome T-shirt </p>
+						    <input type="text" value="1" class="item_Quantity form-control mx-sm-3">
+						    <span class="item_price">$35.99</span>
+							<a class="item_add btn btn-outline-success btn-sm" href="javascript:;"> Add to Cart </a>
+					    </div>
+					</div>
+		        </div>
+		        <div class="card">
+					<div class="simpleCart_shelfItem">
+					    <img src="imgs/kirin.jpg" class="item_thumb kirin30 card-img-top" />
+					    <div class="card-body">
+					    	<p class="item_name kirin30"> Awesome T-shirt </p>
+						    <input type="text" value="1" class="item_Quantity form-control mx-sm-3">
+						    <span class="item_price">$35.99</span>
+							<a class="item_add btn btn-outline-success btn-sm" href="javascript:;"> Add to Cart </a>
+					    </div>
+					</div>
+		    	</div>
+		    	<div class="card">
+					<div class="simpleCart_shelfItem">
+					    <img src="imgs/kirin.jpg" class="item_thumb kirin30 card-img-top" />
+					    <div class="card-body">
+					    	<p class="item_name kirin30"> Awesome T-shirt </p>
+						    <input type="text" value="1" class="item_Quantity form-control mx-sm-3">
+						    <span class="item_price">$35.99</span>
+							<a class="item_add btn btn-outline-success btn-sm" href="javascript:;"> Add to Cart </a>
+					    </div>
+					</div>
+		    	</div>
+		    	<div class="card">
+					<div class="simpleCart_shelfItem">
+					    <img src="imgs/kirin.jpg" class="item_thumb kirin30 card-img-top" />
+					    <div class="card-body">
+					    	<p class="item_name kirin30"> Awesome T-shirt </p>
+						    <input type="text" value="1" class="item_Quantity form-control mx-sm-3">
+						    <span class="item_price">$35.99</span>
+							<a class="item_add btn btn-outline-success btn-sm" href="javascript:;"> Add to Cart </a>
+					    </div>
+					</div>
+		    	</div>
+		    	<div class="card">
+					<div class="simpleCart_shelfItem">
+					    <img src="imgs/kirin.jpg" class="item_thumb kirin30 card-img-top" />
+					    <div class="card-body">
+					    	<p class="item_name kirin30"> Awesome T-shirt </p>
+						    <input type="text" value="1" class="item_Quantity form-control mx-sm-3">
+						    <span class="item_price">$35.99</span>
+							<a class="item_add btn btn-outline-success btn-sm" href="javascript:;"> Add to Cart </a>
+					    </div>
+					</div>
+		    	</div>
+		    	<div class="card">
+					<div class="simpleCart_shelfItem">
+					    <img src="imgs/kirin.jpg" class="item_thumb kirin30 card-img-top" />
+					    <div class="card-body">
+					    	<p class="item_name kirin30"> Awesome T-shirt </p>
+						    <input type="text" value="1" class="item_Quantity form-control mx-sm-3">
+						    <span class="item_price">$35.99</span>
+							<a class="item_add btn btn-outline-success btn-sm" href="javascript:;"> Add to Cart </a>
+					    </div>
+					</div>
+		    	</div>
+		    	<div class="card">
+			        <div class="simpleCart_shelfItem">
+					    <img src="imgs/kirin.jpg" class="item_thumb kirin30 card-img-top" />
+					    <div class="card-body">
+					    	<p class="item_name kirin30"> Awesome T-shirt </p>
+						    <input type="text" value="1" class="item_Quantity form-control mx-sm-3">
+						    <span class="item_price">$35.99</span>
+							<a class="item_add btn btn-outline-success btn-sm" href="javascript:;"> Add to Cart </a>
+					    </div>
+					</div>
+		    	</div> -->
+		    </div>
+		</div>
+    </section>
+    
+    <section>
+    	<div class="container">
+    		<h1>About Us</h1>
+    		
+    	</div>
+    </section>
+
+	<!-- <section id="gallery">
+       <div class="container" id="beer-card">
+            <div class="row no-gutters">
+                <div class="col-md-3 col-6">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/kirin.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">$ 270 </h5>
+                            <p class="card-text">Kirin Ichiban 15L Draught Beer Barrel</p>
+                            <a href="" class="btn btn-outline-success btn-sm">Add to Cart</a>
+                            <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/erdinger.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">$ 330</h5>
+                            <p class="card-text">Erdinger 30L Draught Beer Barrel</p>
+                            <a href="" class="btn btn-outline-success btn-sm">Add to Cart</a>
+                            <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/stella.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">$ 340</h5>
+                            <p class="card-text">Stella Artois 30L Draught Beer Barrel</p>
+                            <a href="" class="btn btn-outline-success btn-sm">Add to Cart</a>
+                            <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/hoegaarden.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">$ 290</h5>
+                            <p class="card-text">Hoegaarden 30L Draught Beer Barrel</p>
+                            <a href="" class="btn btn-outline-success btn-sm">Add to Cart</a>
+                            <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="card">
+                        <img class="card-img-top" src="imgs/hoegaarden.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">$ 290</h5>
+                            <p class="card-text">Hoegaarden 30L Draught Beer Barrel</p>
+                            <a href="" class="btn btn-outline-success btn-sm">Add to Cart</a>
+                            <a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+    </section> -->
+
+<!--     <section class='popup'>
+		<div class="popup-overlay">
+		
+		  <div class="popup-content">
+		    <h2>Pop-Up</h2>
+		    <p> This is an example pop-up that you can make using jQuery.</p>
+		    <form>
+		    	<input type="text" name="message">
+		    </form>
+		   
+		    <button class="close">Close</button> </div>
+		</div>
+		<h2>jQuery Pop-Up Example</h2>
+		<button class="open">Open</button>
+	</section> -->
+
+ 	<!-- <script>
+	$(".open").on("click", function() {
+		$(".popup-overlay, .popup-content").addClass("active");
+	});
+
+	//removes the "active" class to .popup and .popup-content when the "Close" button is clicked 
+	$(".close, .popup-overlay").on("click", function() {
+	  $(".popup-overlay, .popup-content").removeClass("active");
+	});
+	</script> -->
+
+	
+	
+	<script src="https://kit.fontawesome.com/051a04323c.js"></script>
+	<!-- 	<script src="js/jquery.1.6.1.min.js"></script> -->
+	<!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script> -->
+	<script src="main.js"></script>
+	<script src="simpleCart.js"></script>
+	<script src="config.js"></script>
+
+</body>
+
+</html>
