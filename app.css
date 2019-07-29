@@ -182,6 +182,15 @@ a.simpleCart_empty:hover {
   font-weight: bold;
 }
 
+#beerOrderButton{
+  float: right;
+  margin-bottom: 10px;
+}
+
+.left{
+  float:left;
+}
+
 /**/
 
 .purpose-select{

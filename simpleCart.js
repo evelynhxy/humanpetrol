@@ -619,39 +619,39 @@
 			simpleCart.extend({
 
 				// write out cart
-				writeCart: function (selector) {
+				writeCart: function (item) {
 					var TABLE = settings.cartStyle.toLowerCase(),
-						isTable = TABLE === 'table',
+						isTable = 'table' === TABLE,
 						TR = isTable ? "tr" : "div",
 						TH = isTable ? 'th' : 'div',
 						TD = isTable ? 'td' : 'div',
-						THEAD = isTable ? 'thead' : 'div',
+						// THEAD = isTable ? 'thead' : 'div',
 						cart_container = simpleCart.$create(TABLE),
-						thead_container = simpleCart.$create(THEAD),
-						header_container = simpleCart.$create(TR).addClass('headerRow'),
-						container = simpleCart.$(selector),
+						// thead_container = simpleCart.$create(THEAD),
+						TABLE = simpleCart.$create(TR).addClass('headerRow'),
+						// container = simpleCart.$(selector),
 						column,
 						klass,
 						label,
 						x,
 						xlen;
 
-					container.html(' ').append(cart_container);
+					simpleCart.$(item).html(' ').append(cart_container);
 
-					cart_container.append(thead_container);
+					cart_container.append(TABLE);
 
-					thead_container.append(header_container);
+					// thead_container.append(header_container);
 
 
 					// create header
 					for (x = 0, xlen = settings.cartColumns.length; x < xlen; x += 1) {
 						column	= cartColumn(settings.cartColumns[x]);
 						klass	=  "item-" + (column.attr || column.view || column.label || column.text || "cell") + " " + column.className;
-						label	= column.label || "";
+						column	= column.label || "";
 
 						// append the header cell
-						header_container.append(
-							simpleCart.$create(TH).addClass(klass).html(label)
+						TABLE.append(
+							simpleCart.$create(TH).addClass(klass).html(column)
 						);
 					}
 
@@ -661,6 +661,7 @@
 					});
 
 					return cart_container;
+
 				},
 
 				// generate a cart row from an item
@@ -682,7 +683,7 @@
 						column	= cartColumn(settings.cartColumns[j]);
 						klass	= "item-" + (column.attr || (isString(column.view) ? column.view : column.label || column.text || "cell")) + " " + column.className;
 						content = cartCellView(item, column);
-						cell	= simpleCart.$create(TD).addClass(klass).html(content);
+						cell	= simpleCart.$create(TR).addClass(klass).html(content);
 
 						row.append(cell);
 					}

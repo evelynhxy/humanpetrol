@@ -49,7 +49,7 @@ $(document).ready(function(){
                                     $('<span>').addClass('item_price').append(f.price))).append(
                                 $('<button>').attr({type:"button", class:"btn btn-outline-secondary btn-sm", "data-toggle":"modal", "data-target":"#exampleModal", "data-sku": f.name, "data-img":"imgs/"+f.image, "data-volume": f.volume, "data-price": f.price, "data-add": f.add, "data-added": f.added}).text("Details")).append(
                                 $('<a>').attr({class:"item_add btn btn-success btn-sm "+f.add, href:"javascript:;"}).text('Add to Cart')).append(
-                                $('<a>').attr({class:"browse_list btn btn-outline-info btn-sm "+f.browse, href:"cart.html"}).text('Go to Cartk')).append(
+                                $('<a>').attr({class:"browse_list btn btn-outline-info btn-sm "+f.browse, href:"cart.html"}).text('Go to Cart')).append(
                                 $('<p>').attr({class:"prompt "+f.added}).append('product added!')))
                         )); 
             });
