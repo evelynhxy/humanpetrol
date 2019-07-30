@@ -5,19 +5,37 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
 	<link rel="stylesheet" href="app.css">
 	<title>Beer</title>
 </head>
 
 <body>
-	<h2>Thank you!</h2>
-	<script scr="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"></script>
-	<script src="https://kit.fontawesome.com/051a04323c.js"></script>
-		<script src="js/jquery.1.6.1.min.js"></script>
-	<script src="simpleCart.js"></script>
-	<script src="config.js"></script>
+	<nav class="navbar bg-light navbar-light">
+        <div class="container">
+            <a href="index.html" class="navbar-brand"><i class="fas fa-beer"></i> Logo</a>
+            <a href="cart.html" class="navbar-brand" id="navbar-cart"><i class="fas fa-shopping-cart"></i> Cart</a>
+        </div>
+    </nav>
+<div class="container">
+	<p class="thankyou"> Thank you for your request. We will get back to you shortly.</p>
+	<p class="homepage"> Redirecting to <a href="index.html">Homepage...</a> </p>		
+</div>
+
+ 	<script>
+ 		$(window).on("load", function () {
+ 			setTimeout( function(){
+ 				window.open("index.html","_self") // Do something after 1 second 
+  			}, 3000);
+    		
+		});
+	</script>
 </body>
+
+
 
 </html>
