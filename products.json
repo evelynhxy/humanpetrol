@@ -1,125 +1,65 @@
 {
 	"product": [
 		{
-			"name": "Kirin Ichiban Draught Beer 30L",
-			"price": "$250",
+			"name": "Kirin Ichiban Draught Beer 15L",
+			"price": "$189",
 			"volume": "30-liter keg",
-			"image": "kirin.jpg",
-			"popupOverlay": "kirin30pop",
-			"popupContent": "kirin30content",
-			"detailClass": "kirin30",
-			"add": "kirin30add",
-			"browse": "kirin30browse",
-			"added": "kirin30added"
+			"image": "kirin1.jpg"
 		},
 
 		{
 			"name": "Hoegaarden Draught Beer 30L",
 			"price": "$300",
 			"volume": "30-liter keg",
-			"image": "hoegaarden.jpg",
-			"popupOverlay": "hoegaarden30pop",
-			"popupContent": "hoegaarden30content",
-			"detailClass": "hoegaarden30",
-			"add": "hoegaarden30add",
-			"browse": "hoegaarden30browse",
-			"added": "hoegaarden30added"
+			"image": "hoegaarden3.jpg"
 		},
 		{
-			"name": "Erdinger Draught Beer 30L",
-			"price": "$330",
+			"name": "Erdinger Weis Draught Beer 30L",
+			"price": "$400",
 			"volume": "30-liter keg",
-			"image": "erdinger.jpg",
-			"popupOverlay": "erdinger30pop",
-			"popupContent": "erdinger30content",
-			"detailClass": "erdinger30",
-			"add": "erdinger30add",
-			"browse": "erdinger30browse",
-			"added": "erdinger30added"
+			"image": "erdinger1.png"
 		},
 		{
 			"name": "Stella Draught Beer 30L",
 			"price": "$250",
 			"volume": "30-liter keg",
-			"image": "stella.jpg",
-			"popupOverlay": "stella30pop",
-			"popupContent": "stella30content",
-			"detailClass": "stella30",
-			"add": "stella30add",
-			"browse": "stella30browse",
-			"added": "stella30added"
+			"image": "stella2.jpg"
 		},
 		{
-			"name": "Kirin Ichiban Draught Beer 30L",
-			"price": "$250",
-			"volume": "30-liter keg",
-			"image": "kirin.jpg",
-			"popupOverlay": "kirin30pop",
-			"popupContent": "kirin30content",
-			"detailClass": "kirin30",
-			"add": "kirin30add",
-			"browse": "kirin30browse",
-			"added": "kirin30added"
+			"name": "Sapporo Draught Beer 20L",
+			"price": "$264.00",
+			"volume": "20-liter keg",
+			"image": "sapporo1.jpg"
 		},
 		{
-			"name": "Kirin Ichiban Draught Beer 30L",
-			"price": "$250",
-			"volume": "30-liter keg",
-			"image": "kirin.jpg",
-			"popupOverlay": "kirin30pop",
-			"popupContent": "kirin30content",
-			"detailClass": "kirin30",
-			"add": "kirin30add",
-			"browse": "kirin30browse",
-			"added": "kirin30added"
+			"name": "Tiger Draught Beer 20L",
+			"price": "$224.00",
+			"volume": "20-liter keg",
+			"image": "tiger2.png"
 		},
 		{
-			"name": "Kirin Ichiban Draught Beer 30L",
-			"price": "$250",
-			"volume": "30-liter keg",
-			"image": "kirin.jpg",
-			"popupOverlay": "kirin30pop",
-			"popupContent": "kirin30content",
-			"detailClass": "kirin30",
-			"add": "kirin30add",
-			"browse": "kirin30browse",
-			"added": "kirin30added"
+			"name": "Heineken Draught Beer 20L",
+			"price": "$241.00",
+			"volume": "20-liter keg",
+			"image": "heineken.jpg"
 		},
 		{
-			"name": "Kirin Ichiban Draught Beer 30L",
-			"price": "$250",
-			"volume": "30-liter keg",
-			"image": "kirin.jpg",
-			"popupOverlay": "kirin30pop",
-			"popupContent": "kirin30content",
-			"detailClass": "kirin30",
-			"add": "kirin30add",
-			"browse": "kirin30browse",
-			"added": "kirin30added"
+			"name": "Guinness Draught Beer 20L",
+			"price": "$275",
+			"volume": "20-liter keg",
+			"image": "guinness4.png"
 		},
 		{
-			"name": "Kirin Ichiban Draught Beer 30L",
-			"price": "$250",
+			"name": "Kilkenny Draught Beer 30L",
+			"price": "$389",
 			"volume": "30-liter keg",
-			"image": "kirin.jpg",
-			"popupOverlay": "kirin30pop",
-			"popupContent": "kirin30content",
-			"detailClass": "kirin30",
-			"add": "kirin30add",
-			"browse": "kirin30browse",
-			"added": "kirin30added"
+			"image": "kilkenny2.png"
 		},
 		{
-			"name": "Kirin Ichiban Draught Beer 30L",
-			"price": "$250",
+			"name": "San Miguel Draught Beer 30L",
+			"price": "$400",
 			"volume": "30-liter keg",
-			"image": "kirin.jpg",
-			"popupOverlay": "kirin30pop",
-			"popupContent": "kirin30content",
-			"detailClass": "kirin30",
-			"add": "kirin30add",
-			"browse": "kirin30browse",
-			"added": "kirin30added"
+			"image": "sanmiguel1.jpg"
 		}
 
 	]
