@@ -3,20 +3,31 @@
 }
 
 #header{
-	background: url("imgs/header.jpg") center center / cover no-repeat;
-	height: auto;
+	background: url("imgs/header.jpg");
+  background-size: cover;
+  background-position-x: right 50px;
+  background-repeat: no-repeat;
+	height: 120%;
+  min-height: 250px;
 	max-width: 100%
 }
+
+.display-3{
+  color: #ffffff;
+}
+.lead{
+  color: #ffffff;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.5rem;
+
+}
+
 
 .anton{
   font-family: 'Cabin', sans-serif;
   font-weight: 600;
 }
 
-.lead{
-  font-family: 'Cabin', sans-serif;
-  font-weight: 400;
-}
 
 .logo{
   font-family: 'Shadows Into Light', cursive;
