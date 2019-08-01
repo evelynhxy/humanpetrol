@@ -4,7 +4,7 @@
 			"name": "Kirin Ichiban Draught Beer 15L",
 			"price": "$189",
 			"volume": "30-liter keg",
-			"image": "kirin1.jpg"
+			"image": "kirin1.png"
 		},
 
 		{
@@ -23,13 +23,13 @@
 			"name": "Stella Draught Beer 30L",
 			"price": "$250",
 			"volume": "30-liter keg",
-			"image": "stella2.jpg"
+			"image": "stella2.png"
 		},
 		{
 			"name": "Sapporo Draught Beer 20L",
 			"price": "$264.00",
 			"volume": "20-liter keg",
-			"image": "sapporo1.jpg"
+			"image": "sapporo1.png"
 		},
 		{
 			"name": "Tiger Draught Beer 20L",
@@ -41,7 +41,7 @@
 			"name": "Heineken Draught Beer 20L",
 			"price": "$241.00",
 			"volume": "20-liter keg",
-			"image": "heineken.jpg"
+			"image": "heineken.png"
 		},
 		{
 			"name": "Guinness Draught Beer 20L",
@@ -59,7 +59,7 @@
 			"name": "San Miguel Draught Beer 30L",
 			"price": "$400",
 			"volume": "30-liter keg",
-			"image": "sanmiguel1.jpg"
+			"image": "sanmiguel1.png"
 		}
 
 	]
