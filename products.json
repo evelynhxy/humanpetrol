@@ -9,7 +9,7 @@
 
 		{
 			"name": "Hoegaarden Draught Beer 30L",
-			"price": "$300",
+			"price": "$?",
 			"volume": "30-liter keg",
 			"image": "hoegaarden3.png"
 		},
@@ -21,7 +21,7 @@
 		},
 		{
 			"name": "Stella Draught Beer 30L",
-			"price": "$250",
+			"price": "$?",
 			"volume": "30-liter keg",
 			"image": "stella2.png"
 		},
@@ -57,7 +57,7 @@
 		},
 		{
 			"name": "San Miguel Draught Beer 30L",
-			"price": "$400",
+			"price": "$?",
 			"volume": "30-liter keg",
 			"image": "sanmiguel1.png"
 		}

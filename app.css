@@ -8,12 +8,32 @@
 	max-width: 100%
 }
 
+.anton{
+  font-family: 'Cabin', sans-serif;
+  font-weight: 600;
+}
+
+.lead{
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+}
+
+.logo{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.5rem;
+}
+
+body {
+  font-family: 'Merriweather', serif;
+}
+
 .navbar-brand {
   margin-right: 0px;
 }
 
 #navbar-cart{
-	text-align: left;
+	
+  width: 35px;
 }
 
 #navbar-cart:hover {
@@ -63,6 +83,7 @@
 .btn-outline-secondary {
   display: block;
   margin-bottom: 20px;
+  margin-top: 10px;
  
 }
 
@@ -342,4 +363,36 @@ a.simpleCart_empty:hover {
   padding-bottom: calc(.75 * var(--gutter));
   margin-bottom: calc(-.25 * var(--gutter));
 }
+
+
+/*SECTION: HOW IT WORKS*/
+.align-center{
+  text-align: center;
+}
+
+.notes{
+  color: #6c757d;
+}
+
+.footer{
+  margin: 40px 20px 20px 20px;
+}
+
+.steps img{
+  width: 45px;
+  margin-bottom: 10px;
+}
+
+.step3 img{
+  width: 55px;
+  margin-bottom: 10px;
+}
+
+.finalstep img{
+  width: 70px;
+  margin-bottom: 10px;
+}
+
+
+
 

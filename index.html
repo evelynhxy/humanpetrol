@@ -9,24 +9,28 @@
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="app.css">
-	<link rel="shortcut icon" href="">
+	<link href="https://fonts.googleapis.com/css?family=Cabin:400,600|Merriweather|Shadows+Into+Light&display=swap" rel="stylesheet">
 	<title>Beer</title>
 </head>
 
 <body>
     <nav class="navbar bg-light navbar-light">
         <div class="container">
-            <a href="index.html" class="navbar-brand"> Logo</a>
-            <a href="cart.html" class="navbar-brand" id="navbar-cart"> Cart</a>
+            <a href="index.html" class="navbar-brand logo"> HumanPetrol</a>
+
+            <a href="cart.html" class="navbar-brand" >
+            	<img src="imgs/shopping-cart.png" alt="Cart" class="float-left" id="navbar-cart">
+            </a>
         </div>
     </nav>
 
     <section id="header" class="jumbotron text-center img-fluid">
-        <h1 class="display-3">Draught Beer</h1>
-        <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, pariatur?</p>
+        <h1 class="display-3 anton">Draught Beer</h1>
+        <h2 class="lead">to your doorstep.</h2>
     </section>
-
-
+    <div class="container">
+    	<div class="notes">*All prices inclusive of delivery and one-day tap rental</div>
+    </div>
 	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 	  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
 	    <div class="modal-content">
@@ -69,10 +73,39 @@
     
     <section>
     	<div class="container">
-    		<h1>About Us</h1>
+    		<h1 class="align-center anton">How it works</h1>
+    		<br>
+    		<div class="steps">
+    		<img src="imgs/tap.png" class="mx-auto d-block">
+    		</div>
+    		<p class="align-center">STEP 1: Choose your Draught Beers & Submit Request.</p>
+    		<br>
+    		<div class="steps">
+    		<img src="imgs/waiter.png" class="mx-auto d-block">
+    		</div>
+    		<p class="align-center">STEP 2: Get customized arrangement from us.</p>
+    		<br>
+    		<div class="step3">
+    		<img src="imgs/beertap.png" class="mx-auto d-block">
+    		</div>
+    		<p class="align-center">STEP 3: Get the Tap delivered to your doorstep.</p>
+    		<br>
+    		<div class="finalstep">
+    		<img src="imgs/beer.png" class="mx-auto d-block">
+    		</div>
+    		<h3 class="align-center anton">Voila! Enjoy fresh beer at your own convenience.</h3>
+    		<br>
+
     		
     	</div>
     </section>
+    <hr>
+    <footer class="notes footer">
+    	
+    	<p class="align-center">CASTELLA PTE LTD, BLOCK 20 ANG MO KIO INDUSTRIAL PARK 2A, #03-05 AMK TECH LINK, SINGAPORE<br><a href="tel:+65-9156-4246" class="notes">+65 9156 4246</a><br><a href="mailto:e@castella.art" class="notes">e@castella.art</a></p>
+    	<p class="align-center">© 2019 <strong>humanpetrol</strong>. All rights reserved. </p>
+    	
+    </footer>
 
 	<script src="main.js"></script>
 	<script src="simpleCart.js"></script>
